@@ -1,6 +1,14 @@
 /*
 Intro css 
 */
+@font-face {
+    font-family:"RobotoLight";
+    src: url("../fonts/roboto/Roboto-Light.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&display=swap');
+
+
 *{
     box-sizing: border-box;
 }
@@ -52,7 +60,7 @@ div.presentation p{
     margin-top:40px;
     font-size: 1.12rem;
     line-height: 1.6;
-    font-family: 'Open Sans',sans-serif;
+    font-family: "RobotoLight";
 }
 
 div.cartable{
@@ -81,7 +89,8 @@ div.title h1{
     font-size: 3rem;
     color:#18c5cc;
     text-transform: uppercase;
-    font-family: "Roboto";
+    font-family: 'Inconsolata';
+    font-weight: 200;
     line-height: 1.1;
 }
 
@@ -122,7 +131,7 @@ div.description p{
     font-size: 1.12rem;
     margin-top: 20px;
     line-height: 1.6;
-    font-family: 'Open Sans',sans-serif;
+    font-family: "RobotoLight";
     margin:30px 0;
 }
 

@@ -6,7 +6,6 @@
         <input autocomplete  id="firstname" placeholder="Votre prénom" 
             name="firstName" type="text"><br>
 
-        
         <label>Mot de passe : </label>
         <input id="password" placeholder="ex : toto1234" type="password" name="password"><br>
         <button id="seePassword">Voir le password</button>
